@@ -111,7 +111,7 @@ for i in range(100):
 # Find similar results based on predicted calories
 calorie_range = [prediction[0] - 10, prediction[0] + 10]
 similar_data = exercise_df[(exercise_df["Calories"] >= calorie_range[0]) & (exercise_df["Calories"] <= calorie_range[1])]
-st.write(similar_data.sample(5))
+st.write(similar_data.sample(min(5, len(similar_data))))
 
 st.write("---")
 st.header("General Information: ")
