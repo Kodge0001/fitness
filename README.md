@@ -1,30 +1,35 @@
-# Personal Fitness Tracker 💪
+# 💪 AI-Powered Fitness Tracker
 
-A Streamlit-based web app that predicts calories burned during exercise using machine learning.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![ML](https://img.shields.io/badge/Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-## Features
-- 🎛️ **Interactive sliders** for Age, BMI, Duration, Heart Rate, Body Temperature
-- 🤖 **ML prediction** using Random Forest Regressor
-- 📊 **Similar results** comparison from the dataset
-- 📈 **General info** — see how you compare to others
+A data-driven fitness application that uses Machine Learning to predict calories burned based on user biometrics and activity duration.
 
-## Quick Start
+## 📈 Features
+- **Calorie Prediction**: Get accurate estimates of energy expenditure using ML models.
+- **Biometric Input**: Personalized calculations based on age, gender, BMI, and heart rate.
+- **Data Visualization**: Interactive charts showing activity trends and goals.
+- **Streamlit Interface**: Fast, reactive, and user-friendly web UI.
 
-```bash
-# Install dependencies
-pip install -r requirements.txt
+## 🧠 Tech Stack
+- **Languages**: Python
+- **Libraries**: Scikit-learn, Pandas, Matplotlib, NumPy
+- **Framework**: Streamlit
 
-# Run the app
-streamlit run app.py
-```
+## 🚀 Getting Started
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/Kodge0001/fitness.git
+   ```
+2. **Install requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the app**:
+   ```bash
+   streamlit run app.py
+   ```
 
-Open the URL shown in the terminal (usually [http://localhost:8501](http://localhost:8501)).
-
-## Dataset
-- `exercise.csv` — Exercise data (User_ID, Gender, Age, Height, Weight, Duration, Heart_Rate, Body_Temp)
-- `calories.csv` — Calorie data (User_ID, Calories)
-
-## Tech Stack
-- Python / Streamlit
-- Scikit-learn (Random Forest Regressor)
-- Pandas / Matplotlib / Seaborn
+---
+*Developed by [Anurag Kodge](https://github.com/Kodge0001)*
